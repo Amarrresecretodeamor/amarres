@@ -1,0 +1,95 @@
+body {
+  /*margin: 0;*/
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont,Raleway, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /*font-size: 1rem;*/
+  /*font-weight: 400;*/
+  /*line-height: 1.5;*/
+  /*color: #777;*/
+  /*text-align: left;*/
+  /*background-color: #fff;*/
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/velas.png) no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 800px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 30px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.45);
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  #promo.jumbotron {
+    padding: 20px;
+  }
+}
+
+.site-seccion {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #666;
+}
+
+.site-seccion {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 18px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+#testi .item i {
+  font-size: 42px;
+  /*color: ##3e8ce4;*/
+}
+
+#testi .item {
+  padding-top: 36px;
+}
+
+.dark-seciion {
+  background-color: #ff7a00;
+}
+
+#testi . item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #000000;
+  background-color: #ffd53f;
+}
+
